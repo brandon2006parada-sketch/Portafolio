@@ -3,9 +3,11 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0f0f0f;
+  background: url('descargas/cyberpung.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #f5f5f5;
   line-height: 1.6;
+
 }
 
 /* Encabezado */
