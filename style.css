@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(135deg, #1f1f1f, #3f0071);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Secciones */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* Lista de habilidades */
+#habilidades ul {
+  list-style: none;
+  padding: 0;
+}
+
+#habilidades li {
+  background: #1f1f1f;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+#habilidades li:hover {
+  transform: scale(1.05);
+  background: #292929;
+}
+
+/* Proyectos */
+#proyectos ul {
+  list-style: none;
+  padding: 0;
+}
+
+#proyectos li {
+  margin: 0.5rem 0;
+}
+
+#proyectos a {
+  color: #00c3ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#proyectos a:hover {
+  color: #ffcc00;
+}
+
+/* Pie de página */
+footer {
+  background: #1f1f1f;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
