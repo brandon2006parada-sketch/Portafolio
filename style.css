@@ -3,6 +3,10 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
+=======
+  background-color: blue
+>>>>>>> d0c2f8f62e45b85077e6a305ba683882f5669b0b
   background-size: cover;
   color: #f5f5f5;
   line-height: 1.6;
