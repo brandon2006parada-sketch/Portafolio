@@ -3,10 +3,10 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url('cyberpunk.png') no-repeat center center fixed;
   background-size: cover;
   color: #f5f5f5;
   line-height: 1.6;
+  background: linear-gradient(135deg, #1f1f1f, #3f0071);
 
 }
 
@@ -99,7 +99,8 @@ header h1 {
 /* Subtítulo con brillo */
 header p {
   font-size: 1.2rem;
-  text-shadow: 0 0 5px #00ffff;
+  text-shadow: 0 0 5px  #ffcc00;
+;
 }
 
 /* Cuadros de habilidades con borde brillante */
